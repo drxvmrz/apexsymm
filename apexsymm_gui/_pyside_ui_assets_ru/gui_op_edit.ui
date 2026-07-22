@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OpEditWindow</class>
+ <widget class="QWidget" name="OpEditWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>358</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки оператора</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="3" column="0" colspan="3">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QPushButton" name="btn_apply">
+     <property name="text">
+      <string>Принять</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="3">
+    <widget class="QPushButton" name="btn_cancel">
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Матрица поворота</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="0">
+       <widget class="QLineEdit" name="a31"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="a11"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="a21"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="a23"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLineEdit" name="a12"/>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="a13"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="a22"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="a32"/>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLineEdit" name="a33"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="title">
+      <string>Предустановленные операторы</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="1" column="0">
+       <widget class="QComboBox" name="combo_op_presets">
+        <property name="currentText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QComboBox" name="combo_op_presets_category">
+        <property name="currentText">
+         <string>Трансляции и инверсии</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Трансляции и инверсии</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Обычные повороты</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Инверсионные повороты</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Плоскости отражения</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Трансляция</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="t1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="t2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="t3"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="title">
+      <string>Имя оператора</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="line_op_name"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
