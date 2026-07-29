@@ -3,8 +3,18 @@
 
 # ⚙️ Installation
 
-Go to the [releases](https://gitverse.ru/drxvmrz/apexsymm_gui/releases) and download the latest version of installer. 
+Go to the [releases](https://github.com/drxvmrz/apexsymm/releases) and download the latest version of installer. 
 Then install it as usual on your operating system.
+
+# 🩺 Test Apexsymm by example crystal
+
+1. Download test operators to calculation [OLF-file](https://github.com/drxvmrz/apexsymm/_test_examples/test_structure.cif)) and test monoclinic crystal structure [CIF-file](https://github.com/drxvmrz/apexsymm/_test_examples/monoclinic_operators.cif);
+
+2. Open 'Apexsymm' is installed on your commuter;
+
+3. Drag and drop downloaded operators and crystal structure files into 'Apexsymm' main window;
+
+4. Run the calculation :)
 
 # 🧑‍💻 Build by yourself
 
