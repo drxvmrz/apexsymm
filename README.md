@@ -1,5 +1,21 @@
 # 💎 APEXSYMM
+A cross-platform user-friendly GUI-application for studying the pseudosymmetry of crystal structures using the Chuprunov method for calculating the degree of invariance of the electron density.
 
+Original [article](https://doi.org/10.1134/S1063774507010014):
+> _Chuprunov E.V._ Fedorov Pseudosymmetry of Crystals: Review // Crystallography Reports. 2007. V. 52. No. 1. P. 1-11
+
+If you found this application useful in your research, [please cite](https://www.doi.org/):
+> Article in process now
+
+# 🧑‍🔬 System Requirements
+
+> OS: Windows 10 or later, MacOS 11 (Big Sur) or later, Linux with Qt6 support
+> 
+> CPU: 2 GHz Multicored x64/arm64 or better
+> 
+> RAM: 8 Gb or more
+> 
+> HDD/SSD: 100 Mb or more
 
 # ⚙️ Installation
 
