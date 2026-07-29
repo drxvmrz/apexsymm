@@ -6,7 +6,7 @@
 Go to the [releases](https://github.com/drxvmrz/apexsymm/releases) and download the latest version of installer. 
 Then install it as usual on your operating system.
 
-# 🩺 Test Apexsymm by example crystal
+# 🩺 Test APEXSYMM by example crystal
 
 1. Download test operators to calculation [OLF-file](https://github.com/drxvmrz/apexsymm/blob/main/_test_examples/monoclinic_operators.olf) and test monoclinic crystal structure [CIF-file](https://github.com/drxvmrz/apexsymm/blob/main/_test_examples/test_structure.cif);
 
@@ -16,7 +16,7 @@ Then install it as usual on your operating system.
 
 4. Run the calculation :)
 
-# 🧑‍💻 Build by yourself
+# 🧑‍💻 Build APEXSYMM by yourself
 
 To build a standalone GUI-application follow these steps:
 
