@@ -14,7 +14,11 @@ Then install it as usual on your operating system.
 
 3. Drag and drop downloaded operators and crystal structure files into 'Apexsymm' main window;
 
-4. Run the calculation :)
+4. Run the calculation!
+
+# 📚 More information about using APEXSYMM
+
+For more information, please refer to the complete (user manual)[https://github.com/drxvmrz/apexsymm/apexsymm_gui/extras].
 
 # 🧑‍💻 Build APEXSYMM by yourself
 
