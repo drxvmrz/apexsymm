@@ -9,7 +9,7 @@ If you found this application useful in your research, [please cite](https://www
 
 # 🧑‍🔬 System Requirements
 
-> OS: Windows 10 or later, MacOS 11 (Big Sur) or later, Linux with Qt6 support
+> OS: Windows 10 or later, MacOS 11 (Big Sur) or later, Linux distribution with Qt6 support
 > 
 > CPU: 2 GHz Multicored x64/arm64 or better
 > 
