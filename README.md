@@ -18,7 +18,7 @@ Then install it as usual on your operating system.
 
 # 📚 More information about using APEXSYMM
 
-For more information, please refer to the complete (user manual)[https://github.com/drxvmrz/apexsymm/apexsymm_gui/extras].
+For more information, please refer to the complete [user manual](https://github.com/drxvmrz/apexsymm/tree/main/apexsymm_gui/extras).
 
 # 🧑‍💻 Build APEXSYMM by yourself
 
