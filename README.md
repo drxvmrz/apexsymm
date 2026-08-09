@@ -7,6 +7,12 @@ Original method [article](https://doi.org/10.1134/S1063774507010014):
 If you found this application useful in your research, [please cite](https://www.doi.org/):
 > Article in process now
 
+# ⚖️ Features
+
+- [x] A completely standalone desktop-app
+- [x] User-friendly and fast graphical user interface
+- [x] Rotation matrices of symmetry operators represents in cartesian basis 
+
 # 🧑‍🔬 System Requirements
 
 > OS: Windows 10 or later, MacOS 11 (Big Sur) or later, Linux distribution with Qt6 support
