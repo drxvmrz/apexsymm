@@ -57,23 +57,16 @@ cd <PATH TO DOWNLOADED REPOSITRORY>
    
     1. Prepare your libraries pathways in [CMakeLists.txt](https://github.com/drxvmrz/apexsymm/blob/main/apexsymm_kernel/src/CMakeLists.txt)
        
-    2. Run `CMake` building
-       
-        1. Windows (PowerShell or Command Prompt)
-           
-            ```
-            cmake -S .\apexsymm_kernel\src\ -B build ^
-            cmake --build build --config Release
-            ```
-            
-        2. UNIX/UNIX-like (Terminal)
-           
-            ```
-            cmake -S .\apexsymm_kernel\src\ -B build \
-            cmake --build build --config Release
-            ```
-            
-4. Build the GUI shell:
+    2. Run `CMake` building:
+   
+         *Use `\` instead of `^` on UNIX/UNIX-like systems*
+      
+         ```
+         cmake -S .\apexsymm_kernel\src\ -B build ^
+         cmake --build build --config Release
+         ```
+         
+5. Build the GUI shell:
    
     1. Create a `Python virtual environment` on it then activate:
        
@@ -112,4 +105,4 @@ cd <PATH TO DOWNLOADED REPOSITRORY>
             ./build_nuitka_mac
             ```
         
-5. Open `dist` folder then run the app :)
+6. Open `dist` folder then run the app :)
