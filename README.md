@@ -32,9 +32,9 @@ Then install it as usual on your operating system.
 
 1. Download test operators to calculation [OLF-file](https://github.com/drxvmrz/apexsymm/blob/main/_test_examples/monoclinic_operators.olf) and test monoclinic crystal structure [CIF-file](https://github.com/drxvmrz/apexsymm/blob/main/_test_examples/test_structure.cif);
    
-2. Open `Apexsymm` installed on your commuter;
+2. Open APEXSYMM installed on your commuter;
    
-3. Drag and drop downloaded operators and crystal structure files into `Apexsymm` main window;
+3. Drag and drop downloaded operators and crystal structure files into APEXSYMM main window;
    
 4. Run the calculation!
 
@@ -44,7 +44,7 @@ For more information, please refer to the complete [user manual](https://github.
 
 # 🧑‍💻 Build APEXSYMM by yourself
 
-❗*To build the "Apexsymm", `CMake` and `Python` must be installed and added into `PATH` system variable!*
+❗*To build the APEXSYMM, `CMake` and `Python` must be installed and added into `PATH` system variable!*
 
 ✅To build a standalone GUI-application follow these steps:
 
